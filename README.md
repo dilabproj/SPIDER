@@ -3,8 +3,8 @@
 ### 本說明文件是關於如何在bi-branch self-supervised ECG架構下訓練的ECG encoder，並以該ECG encoder對心電圖訊號進行轉換，以用於其他ECG相關應用。
 ### 本研究使用三個ECG dataset進行模型訓練，分別為PTBXL、Chapman以及CPSC，因此會有三個對應的訓練模型。資料集皆為開源資料集，本研究所使用的資料來源如下：
 * PTBXL：https://physionet.org/content/ptb-xl/1.0.3/
-* Chapman：http://2018.icbeb.org/Challenge.html
-* CPSC：
+* Chapman：https://physionet.org/content/ecg-arrhythmia/1.0.0/
+* CPSC：http://2018.icbeb.org/Challenge.html
 
 使用步驟如下：
 * 訓練ECG encoder
